@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>My Website</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <li>Register</li>
+        </ul>
+        <h1>Register</h1>
+        <form method="POST" action="">
+            First Name: <input type="text" name="firstname"><br>
+            Last Name: <input type="text" name="lastname"><br>
+            Email: <input type="email" name="email"><br>
+            Birthday: <input type="date" name="dob"><br>
+            Password: <input type="password" name="password" minlength="6"><br>
+
+            Gender: <br>
+            Male<input type="radio" name="gender" value="male"><br>
+            Female<input type="radio" name="gender" value="female"><br>
+
+            Pets: <br>
+            Dog<input type="checkbox" name="pets" value="dog"><br>
+            Cat<input type="checkbox" name="pets" value="cat"><br>
+            Parrot<input type="checkbox" name="pets" value="parrot"><br>
+
+            Cars: 
+            <select name="cars">
+                <option value="Mazda">Mazda</option>
+                <option value="Volvo">Volvo</option>
+                <option value="Audi">Audi</option>
+                <option value="C-HR">C-HR</option>
+            </select><br>
+
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
